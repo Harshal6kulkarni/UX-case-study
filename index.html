@@ -74,9 +74,9 @@
   .sec-header { display: flex; align-items: baseline; gap: 20px; margin-bottom: 48px; border-bottom: 1px solid var(--border); padding-bottom: 20px; }
   .sec-header-dark { border-bottom-color: rgba(255,255,255,0.1); }
   .sec-header-off { border-bottom-color: var(--border); }
-  .sec-num { font-family: 'Syne', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; color: var(--blue); }
+  .sec-num { font-family: 'Syne', sans-serif; font-size: 15px; font-weight: 700; letter-spacing: 0.1em; color: var(--blue); }
   .sec-num-dark { color: rgba(255,255,255,0.25); }
-  .sec-title { font-family: 'Syne', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--black); }
+  .sec-title { font-family: 'Syne', sans-serif; font-size: 15px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--black); }
   .sec-title-dark { color: rgba(255,255,255,0.5); }
   h2.block-title { font-family: 'Syne', sans-serif; font-size: clamp(22px, 3vw, 34px); font-weight: 700; line-height: 1.15; letter-spacing: -0.01em; color: var(--black); margin-bottom: 20px; }
   h2.block-title-dark { color: #FFFFFF; }
@@ -196,7 +196,7 @@
   .insight-card:nth-child(2) { border-top-color: var(--indigo); }
   .insight-card:nth-child(3) { border-top-color: var(--phase3); }
   .insight-card:nth-child(4) { border-top-color: var(--amber); }
-  .insight-n { font-family: 'Syne', sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 0.12em; color: var(--blue); margin-bottom: 16px; }
+  .insight-n { font-family: 'Inter', sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 0.12em; color: var(--blue); margin-bottom: 16px; }
   .insight-card:nth-child(2) .insight-n { color: var(--indigo); }
   .insight-card:nth-child(3) .insight-n { color: var(--phase3); }
   .insight-card:nth-child(4) .insight-n { color: var(--amber); }
@@ -348,7 +348,7 @@
     <p class="hero-desc">A food company's product development pipeline ran entirely on email threads and manually managed spreadsheets across six teams. This project maps every pain point and redesigns the brief-to-approval workflow into a unified digital system.</p>
     <div class="tags">
       <span class="tag">UX Research</span>
-      <span class="tag">Enterprise Design</span>
+      <span class="tag">SAAS</span>
       <span class="tag">Food & Beverage R&D</span>
       <span class="tag">Contextual Observation</span>
       <span class="tag">Workflow Design</span>
@@ -359,7 +359,7 @@
     <div class="meta-row"><div class="meta-label">Research Method</div><div class="meta-val">Contextual Observation</div></div>
     <div class="meta-row"><div class="meta-label">Domain</div><div class="meta-val">Food & Beverage R&D</div></div>
     <div class="meta-row"><div class="meta-label">Status</div><div class="meta-val">Research Complete · Design in Progress</div></div>
-    <div class="meta-row"><div class="meta-label">Platform</div><div class="meta-val">Windchill PLM (Recommended)</div></div>
+    <div class="meta-row"><div class="meta-label">Location</div><div class="meta-val">R&D Zydus</div></div>
   </div>
 </div>
 
@@ -369,10 +369,10 @@
   <div class="two-col-wide">
     <div>
       <h2 class="block-title">A pipeline managed entirely through email</h2>
-      <p class="block-desc">From brief submission to final regulatory sign-off, a new product passes through five phases across six cross-functional teams — all coordinated via email threads, personal spreadsheets, and verbal approvals. Nothing is tracked. Nothing is visible. Nothing is standard.</p>
+      <p class="block-desc">From start to finish, a new product goes through five phases and six teams. Everything is coordinated by email chains, personal spreadsheets, and verbal OKs. Nothing gets tracked. Nothing is visible. Nothing is standard.</p>
     </div>
     <div style="padding-top: 8px;">
-      <p class="block-desc">The PLM project was commissioned to understand this broken workflow end-to-end, find exactly where it fails, and design a digital platform to replace it — starting with the highest-impact pain point: the brief submission and approval flow.</p>
+      <p class="block-desc">The PLM project maps our broken workflow end-to-end.It finds the failures and builds a digital platform—starting with brief submission and approval.</p>
     </div>
   </div>
   <div class="stats-row">
@@ -600,7 +600,7 @@
 
     </svg>
     <!-- Approved continues below SVG cleanly -->
-    <div style="display:flex; flex-direction:column; align-items:center; margin-top: -20px; padding-bottom:8px;">
+    <div style="display:flex; flex-direction:column; align-items:center; margin-top: -20px;margin-right: 97px; padding-bottom:8px;">
       <div style="width:1px; height:24px; background:#999;"></div>
       <div style="background:#111; color:white; font-family:'Syne',sans-serif; font-size:11px; font-weight:700; padding:12px 40px; letter-spacing:0.06em;">RESOURCE ALLOCATION BY PRODUCT MANAGER</div>
       <div style="width:1px; height:16px; background:#999;"></div>
@@ -715,15 +715,17 @@
   <div class="inner">
     <div class="sec-header"><span class="sec-num">04</span><span class="sec-title">Pain Points — All Phases</span></div>
     <h2 class="block-title">Every phase had critical gaps</h2>
-    <p class="block-desc">Across all five lifecycle phases the pattern was consistent: documents manually managed, decisions over email, nothing traceable. The system wasn't broken in one place — it was held together by individual effort everywhere.</p>
+    <p class="block-desc">Across all five lifecycle phases the pattern was consistent: documents manually managed.</p>
     <div class="pain-grid">
-      <div class="pain-card"><div class="pain-phase">Brief Submission</div><h4>No standard brief format</h4><p>Marketing submitted briefs in varying formats with no enforced structure, leading to incomplete information and avoidable back-and-forth before review could even begin.</p></div>
+      <div class="pain-card"><div class="pain-phase">Brief Submission</div><h4>No standard brief format</h4><p>Marketing submits briefs in different formats with no standard structure. This causes incomplete info and unnecessary back-and-forth before reviews can start.
+
+</p></div>
       <div class="pain-card"><div class="pain-phase">Brief Submission</div><h4>No visibility after submission</h4><p>Once a brief was submitted, marketing had no way to track where it sat in the pipeline. Status updates depended entirely on whoever they could reach by email or phone.</p></div>
       <div class="pain-card"><div class="pain-phase">Brief Review</div><h4>Reviewer ownership was unclear</h4><p>No formal assignment of who reviewed what. Senior members reviewed inconsistently — some gave detailed feedback, others one-liners — creating uneven revision cycles.</p></div>
       <div class="pain-card"><div class="pain-phase">Brief Revision</div><h4>Revision cycles were untracked</h4><p>Multiple versions of the same brief circulated over email with no versioning. Teams regularly worked from outdated documents unknowingly.</p></div>
       <div class="pain-card"><div class="pain-phase">Prototype Development</div><h4>Formulation data maintained individually</h4><p>Formulation sheets, ingredient records, and trial data were kept in personal files. Institutional knowledge was siloed or lost when team members left.</p></div>
       <div class="pain-card"><div class="pain-phase">Prototype Development</div><h4>Sensory evaluation feedback was informal</h4><p>Sensory reports were manually maintained with no structured form. Feedback was not standardised, making revision cycles hard to action systematically.</p></div>
-      <div class="pain-card"><div class="pain-phase">Stability</div><h4>Stability documents managed ad hoc</h4><p>TRFs, protocols, COAs, and external lab reports all tracked via email. Report compilation was a time-consuming manual exercise for every submission.</p></div>
+      <div class="pain-card"><div class="pain-phase">Stability</div><h4>Stability documents backtrackinng/study </h4><p>TRFs, protocols, COAs, and external lab reports all tracked via email. Report compilation was a time-consuming manual exercise for every submission.</p></div>
       <div class="pain-card"><div class="pain-phase">Plant Trials & Documentation</div><h4>No online approval system anywhere</h4><p>Plant trial approvals, machinability sign-offs, and final documentation — BOM, MFC, specs — handled through email. No formal approval timestamps or records.</p></div>
     </div>
   </div>
@@ -880,8 +882,8 @@
   <div class="sec-header"><span class="sec-num">07</span><span class="sec-title">Design Opportunity</span></div>
   <h2 class="block-title">Framing the design challenge</h2>
   <div class="hmw-block">
-    <div class="hmw-label">How Might We</div>
-    <p class="hmw-text">"How might we design a unified PLM portal that gives every team real-time visibility into project status, standardises the brief-to-approval workflow, and preserves institutional knowledge — so no project depends on any single person's memory?"</p>
+    <div class="hmw-label">Design brief</div>
+    <p class="hmw-text">"Create a single PLM portal that provides real-time project status visibility for all team to standardizes the brief-to-approval workflow, captures institutional knowledge and provide a data repository"</p>
   </div>
   <div class="solutions-row">
     <div class="sol-card"><div class="sol-icon">📋</div><h4>Structured Brief Submission</h4><p>Standardised form with required fields eliminating incomplete briefs and removing the first source of project delays.</p></div>
@@ -1044,4 +1046,8 @@
       <div class="step-phase"><span>Phase 2<br>Expand</span></div>
       <div class="step-content"><h4>Extend to sensory evaluation and all department task flows</h4><p>Each department journey map becomes a screen design problem. The sensory loop, stability tracking, and plant trial sign-offs are the next highest-impact areas to design for.</p></div>
     </div>
-    
+    <div class="step-row">
+      <div class="step-n">4</div>
+      <div class="step-phase"><span>Future<br>System</span></div>
+      <div class="step-content"><h4>Extend to sensory evaluation and all department task flows</h4><p>Each department journey map becomes a screen design problem. The sensory loop, stability tracking, and plant trial sign-offs are the next highest-impact areas to design for.</p></div>
+      <div
